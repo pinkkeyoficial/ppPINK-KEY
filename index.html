@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PINK KEY</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+</style>
+
+</head>
+
+<body>
+    
+           
+
+
+    <!-- Navbar Start -->
+  <!-- Navbar Start -->
+<div class="container-fluid p-0">
+  <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5 transparent-navbar">
+
+      <a href="index.html" class="navbar-brand ml-lg-3">
+         <img src="img/pink_key-removebg-preview.png" alt="SPA Center" style="height: 100px;">
+      </a>
+
+      <!-- BOTÓN HAMBURGUESA NORMAL -->
+      <button class="navbar-toggler" type="button" onclick="document.getElementById('mobileMenu').classList.add('open')">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      
+
+      <!-- MENÚ DESKTOP — NO SE TOCA -->
+      <div class="collapse navbar-collapse justify-content-between px-lg-3 d-none d-lg-flex">
+         <div class="navbar-nav m-auto py-0">
+            <a href="index.html" class="nav-item nav-link active">INICIO</a>
+            <a href="about.html" class="nav-item nav-link">NOSOTROS</a>
+            <a href="carrito.html" class="nav-item nav-link">PRODUCTOS</a>
+         </div>
+         <a href="contact.html" class="btn btn-primary">CONTACTO</a>
+      </div>
+   </nav>
+</div>
+<!-- Navbar End -->
+
+<!-- MENÚ MÓVIL DESLIZABLE DESDE LA DERECHA -->
+<div id="mobileMenu" class="mobile-menu">
+   <div class="mobile-menu-content">
+      <button class="close-btn" onclick="document.getElementById('mobileMenu').classList.remove('open')">&times;</button>
+      <a href="index.html" class="nav-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">INICIO</a>
+      <a href="about.html" class="nav-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">NOSOTROS</a>
+      <a href="carrito.html" class="nav-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">PRODUCTOS</a>
+      <a href="contact.html" class="btn btn-primary mt-3" onclick="document.getElementById('mobileMenu').classList.remove('open')">CONTACTO</a>
+   </div>
+</div>
+
+<style>
+/* MENÚ LATERAL SOLO EN CELULAR */
+.mobile-menu {
+   position: fixed;
+   top: 0;
+   right: -260px; /* fuera de pantalla */
+   width: 260px;
+   height: 100vh;
+   background: #fff; /* fondo blanco elegante */
+   box-shadow: -2px 0 10px rgba(0,0,0,0.15);
+   transition: right 0.3s ease-in-out;
+   z-index: 9999;
+   padding: 20px;
+}
+.mobile-menu.open { right: 0; } /* Deslizar desde derecha */
+
+.mobile-menu-content .nav-link {
+   display: block;
+   font-weight: 600;
+   margin: 12px 0;
+   text-transform: uppercase; /* tal como pediste */
+   color: #000;
+}
+
+.close-btn {
+   background: none;
+   border: none;
+   font-size: 32px;
+   position: absolute;
+   top: 10px;
+   right: 15px;
+   cursor: pointer;
+}
+
+@media(min-width: 992px){
+   .mobile-menu { display: none; }
+}
+</style>
+
+
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+     <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="30"></div>
+    <div class="container-fluid p-0 mb-5 pb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#header-carousel" data-slide-to="1"></li>
+                <li data-target="#header-carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="height: 100vh;">
+    <img class="w-100 h-100" src="img/paletas22.jpg" style="object-fit: cover; height: 100vh;">
+    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+        <div class="p-3" style="max-width: 900px;">
+            <!-- ...contenido... -->
+                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown" style="letter-spacing: 3px;">MAQUILLAJE & BELLEZA </h6>
+                            <h3 class="display-3 text-capitalize text-white mb-3">Transforma tu estilo con Pink Key</h3>
+                            <p class="mx-md-5 px-5">Explora una línea completa de maquillaje profesional que resalta tu belleza única. Labiales, sombras, bases y mucho más para cada ocasión.</p>
+                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp" href="carrito.html">Descubre Pink Key</a>
+                        </div>
+                    </div>
+                </div>
+               <div class="carousel-item" style="height: 100vh;">
+    <img class="w-100 h-100" src="img/paletas.jpg" style="object-fit: cover; height: 100vh;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown" style="letter-spacing: 3px;">MAQUILLAJE & BELLEZA </h6>
+                            <h3 class="display-3 text-capitalize text-white mb-3">Pink Key: Donde nace tu look</h3>
+                            <p class="mx-md-5 px-5">Somos pasión por el maquillaje. Creamos productos de calidad, accesibles y con estilo para que brilles cada día con tu propia esencia.</p>
+                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp" href="carrito.html">Descubre Pink Key</a>
+                        </div>
+                    </div>
+                </div>
+               <div class="carousel-item" style="height: 100vh;">
+    <img class="w-100 h-100" src="img/paletas33.jpg" style="object-fit: cover; height: 100vh;">
+    <!-- ...contenido... -->
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown" style="letter-spacing: 3px;">MAQUILLAJE & BELLEZA </h6>
+                            <h3 class="display-3 text-capitalize text-white mb-3">Maquillaje sin límites, para todos los estilos</h3>
+                            <p class="mx-md-5 px-5">Desde lo natural hasta lo más glam, en Pink Key tenemos todo lo que necesitas para expresarte a través del color y la creatividad.</p>
+                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp" href="carrito.html">Descubre Pink Key</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+     
+
+<!-- BLOQUE CORREGIDO (index.html) -->
+<div class="curate-section">
+  <h2>Arregla tu apariencia</h2>
+  <div class="cards">
+    <div class="card face">
+      <a class="cat-btn" data-cat="rostro" href="javascript:void(0);" onclick="seleccionarCategoria('rostro')">
+        <img src="img/ppppersona1.jpg" alt="rostro">
+        <span class="label">Rostro</span>
+      </a>
+    </div>
+
+    <div class="card lips">
+      <a class="cat-btn" data-cat="labios" href="javascript:void(0);" onclick="seleccionarCategoria('labios')">
+        <img src="img/persona2.jpg" alt="Labios">
+        <span class="label">Labios</span>
+      </a>
+    </div>
+
+    <div class="card eyes">
+      <a class="cat-btn" data-cat="ojos" href="javascript:void(0);" onclick="seleccionarCategoria('ojos')">
+        <img src="img/ppppppp4.png" alt="Ojos">
+        <span class="label">Ojos</span>
+      </a>
+    </div>
+
+    <div class="card tools">
+      <a class="cat-btn" data-cat="herramientas" href="javascript:void(0);" onclick="seleccionarCategoria('herramientas')">
+        <img src="img/ppppersona222.jpg" alt="Herramientas">
+        <span class="label">Herramientas</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+function seleccionarCategoria(cat) {
+  sessionStorage.setItem('categoriaPinkKey', cat);
+  window.location.href = 'carrito.html';
+}
+</script>
+   
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pb-5 pb-lg-0">
+                    <img class="img-fluid" src="img/inicio11 (2).jpg" alt="230px" style="width:500px; height:600px; object-fit:cover;">
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">Maquillaje & Belleza</h6>
+                    <h1 class="mb-4">Tu Mejor Opción en Maquillaje Profesional & Belleza - Pink Key</h1>
+                    <p class="pl-4 border-left border-primary">En Pink Key creemos que cada rostro merece resplandecer. Somos expertos en resaltar tu belleza natural con productos de alta calidad y técnicas modernas. Nuestro equipo se dedica a ofrecerte una experiencia única, profesional y encantadora. ¿Estás lista para brillar como nunca?</p>
+                    <div class="row pt-3">
+                        <div class="col-6">
+                            <div class="bg-light text-center p-4">
+                                <h3 class="display-4 text-primary" data-toggle="counter-up">99</h3>
+                                <h6 class="text-uppercase">PRODUCTOS EXCLUSIVOS</h6>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="bg-light text-center p-4">
+                                <h3 class="display-4 text-primary" data-toggle="counter-up">150</h3>
+                                <h6 class="text-uppercase">CLIENTAS FELICES</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+     <!--carousel prodector-->
+      <div class="carousel-title">Mejores Productos</div>
+  <div class="carousel-controls">
+    <button class="arrow left" onclick="scrollCarousel(-1)">&#10094;</button>
+    <div class="carousel-wrapper" id="carouselWrapper">
+      <div class="carousel-container" id="carouselContainer">
+        <div class="product-card">
+          <div class="product-image" style="background-image: url('IMG/producto2.jpg');"></div>
+          <div class="product-title">Corrector de Ojeras Bonita de Ani-K Makeup. </div>
+          <div class="product-rating">⭐⭐⭐⭐⭐</div>
+          <div class="product-price">$10.000</div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image" style="background-image: url('img/producto3.jpg')"></div>
+          <div class="product-title">Corrector de Ojeras My Concealer de Bloomshell. </div>
+          <div class="product-rating">⭐⭐⭐⭐⭐</div>
+          <div class="product-price">$10.000</div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image" style="background-image: url('img/producto4.jpg');"></div>
+          <div class="product-title">correctores de la marca SAGUI. </div>
+          <div class="product-rating">⭐⭐⭐⭐⭐</div>
+          <div class="product-price">$8.000</div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image" style="background-image: url('img/producto5.jpg');"></div>
+          <div class="product-title">Corrector de la marca SAS Supergirl con esponja</div>
+          <div class="product-rating">⭐⭐⭐⭐⭐</div>
+          <div class="product-price">$10.000</div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image" style="background-image: url('img/producto6.jpg');"></div>
+          <div class="product-title">Base Fluida e Impecable de Elaya Belleza. </div>
+          <div class="product-rating">⭐⭐⭐⭐⭐</div>
+          <div class="product-price">$15.000</div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image" style="background-image: url('img/producto11.jpg');"></div>
+          <div class="product-title">Set de Brochasx6</div>
+          <div class="product-rating">⭐⭐⭐⭐⭐</div>
+          <div class="product-price">$15.000</div>
+        </div>
+      </div>
+    </div>
+    <button class="arrow right" onclick="scrollCarousel(1)">&#10095;</button>
+  </div>
+  <!--carousel prodector END-->
+
+
+
+<!-- 🌸 PROMOCIONES DESTACADAS - Pink Key -->
+<section class="promoBannerPK">
+  <div class="promoContainerPK">
+
+    <!-- 💋 Promoción del Mes -->
+    <div class="promoSlidePK" style="background-image: url('img/paletas22.jpg'); display:block;">
+      <div class="promoContentPK">
+        <h2 style="color: #fff;">Promoción del Mes</h2>
+        <p>30% de descuento en labiales Pink Kiss  — ¡Solo por tiempo limitado!</p>
+        <a href="https://wa.me/573105519202?text=¡Hola!%20Vi%20la%20%F0%9F%92%8B%20Promoci%C3%B3n%20del%20Mes%20de%20Pink%20Key%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20labiales%20Pink%20Kiss%20%F0%9F%92%84" target="_blank">Ver Promoción</a>
+      </div>
+    </div>
+
+    <!-- 🌸 Combo Belleza Total -->
+    <div class="promoSlidePK" style="background-image: url('img/paletas33.jpg');">
+      <div class="promoContentPK">
+        <h2 style="color: #fff;"> Combo Belleza Total</h2>
+        <p>Base + Labial + Brocha a solo <b>$29.900</b> — ¡Luce increíble cada día!</p>
+        <a href="https://wa.me/573105519202?text=¡Hola!%20Me%20interesa%20el%20%F0%9F%8C%B8%20Combo%20Belleza%20Total%20de%20Pink%20Key%20%2C%20quiero%20comprarlo%20por%20$29.900%20%F0%9F%92%95" target="_blank">Ver Combo</a>
+      </div>
+    </div>
+
+    <!-- 🎁 Regalo Sorpresa -->
+    <div class="promoSlidePK" style="background-image: url('img/producto11.jpg');">
+      <div class="promoContentPK">
+        <h2 style="color: #fff;"> Regalo Sorpresa</h2>
+        <p>Por compras mayores a <b>$40.000</b>, recibe un obsequio especial </p>
+        <a href="https://wa.me/573105519202?text=¡Hola!%20Vi%20el%20%F0%9F%8E%81%20Regalo%20Sorpresa%20de%20Pink%20Key%20y%20quiero%20saber%20c%C3%B3mo%20obtenerlo%20con%20mi%20compra%20%F0%9F%92%9C" target="_blank">Ver Regalo</a>
+      </div>
+    </div>
+
+    <!-- Indicadores -->
+    <div class="promoDotsPK">
+      <span class="promoDotPK activePK" onclick="currentSlidePK(1)"></span>
+      <span class="promoDotPK" onclick="currentSlidePK(2)"></span>
+      <span class="promoDotPK" onclick="currentSlidePK(3)"></span>
+    </div>
+  </div>
+</section>
+
+<!-- 💕 ESTILOS AISLADOS DEL BANNER -->
+<style>
+  .promoBannerPK {
+    width: 90%;
+    margin: 60px auto;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    position: relative;
+  }
+  .promoContainerPK {
+    position: relative;
+  }
+  .promoSlidePK {
+    display: none;
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    position: relative;
+  }
+  .promoContentPK {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.45);
+    padding: 30px;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 700px;
+    backdrop-filter: blur(2px);
+  }
+  .promoContentPK h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .promoContentPK p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .promoContentPK a {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #e91e63;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  .promoContentPK a:hover {
+    background: #ff4081;
+    transform: scale(1.05);
+  }
+
+  /* Indicadores */
+  .promoDotsPK {
+    text-align: center;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+  }
+  .promoDotPK {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .activePK, .promoDotPK:hover {
+    background-color: #e91e63;
+  }
+  .fadePK {
+    animation: fadeEffectPK 1s;
+  }
+  @keyframes fadeEffectPK {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+  }
+</style>
+
+<!-- 💫 SCRIPT AISLADO DEL BANNER -->
+<script>
+  let slideIndexPK = 0;
+  showSlidesPK();
+
+  function showSlidesPK() {
+    const slides = document.getElementsByClassName("promoSlidePK");
+    const dots = document.getElementsByClassName("promoDotPK");
+
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndexPK++;
+    if (slideIndexPK > slides.length) { slideIndexPK = 1; }
+
+    for (let i = 0; i < dots.length; i++) {
+      dots[i].classList.remove("activePK");
+    }
+
+    slides[slideIndexPK - 1].style.display = "block";
+    dots[slideIndexPK - 1].classList.add("activePK");
+
+    setTimeout(showSlidesPK, 5000); // cambia cada 5 segundos
+  }
+
+  function currentSlidePK(n) {
+    slideIndexPK = n - 1;
+    showSlidesPK();
+  }
+</script>
+
+
+    <!-- Open Hours Start -->
+    <div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 pt-5 pb-lg-5">
+                <div class="hours-text bg-light p-4 p-lg-5 my-lg-5 text-center">
+                    <h6 class="d-inline-block text-white text-uppercase bg-primary py-1 px-2">HORARIOS DE ATENCIÓN</h6>
+                    <h1 class="mb-4">Bienvenidos a PINK KEY, el mejor lugar para brillar</h1>
+                    <p>En PINK KEY realzamos tu belleza con productos de maquillaje de alta calidad. Ven y descubre un mundo de color, estilo y cuidado personalizado para ti. Porque en PINK KEY, tu look es nuestra pasión.</p>
+                    <ul class="list-inline">
+                        <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Lunes a Domingo: 9:00 AM – 12:00 PM / 1:00 PM – 7:00 PM</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary mt-2">CONTACTO</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Open Hours End -->
+
+
+    <!-- BOTÓN FLOTANTE WHATSAPP -->
+<a href="https://wa.me/573105519202?text=¡Hola!%20Quisiera%20más%20información%20sobre%20los%20productos%20de%20Pink%20Key%20💄" 
+   class="whatsapp-float" target="_blank" title="Escríbenos por WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<style>
+.whatsapp-float {
+  position: fixed;
+  bottom: 100px; /* lo sube un poco para no chocar con otros botones */
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  font-size: 32px;
+  line-height: 60px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 9999;
+  transition: all 0.3s ease;
+  animation: float 2.5s ease-in-out infinite;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.1);
+}
+
+/* Animación flotante */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+</style>
+
+
+   
+
+
+
+
+    <!-- Footer Start -->
+    <div class="footer container-fluid position-relative bg-dark py-5" style="margin-top: 90px;">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6 pr-lg-5 mb-5">
+                    <a href="index.html" class="navbar-brand">
+                    <h1 class="mb-3 text-white"><span class="text-primary">PINK </span> KEY</h1>
+                    </a>
+                    <p>En Pink Key transformamos el maquillaje en un arte. Creamos productos pensados para resaltar tu belleza natural y acompañarte en cada momento especial.</p>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>Carrera 11 #11-4, Sogamoso, Boyacá</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>310 5519202</p>
+                    <p><i class="fa fa-envelope mr-2"></i>pinkkey63@gmail.com</p>
+                    <div class="d-flex justify-content-start mt-4">
+                       <a class="btn btn-lg btn-primary btn-lg-square" href="https://www.instagram.com/pinkkeysogamoso?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 pl-lg-5">
+                    <div class="row">
+                        <div class="col-sm-6 mb-5">
+                            <div class="d-flex flex-column justify-content-start">
+                                <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>INICIO</a>
+                                <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>NOSOTROS</a>
+                                <a class="text-white-50 mb-2" href="productos.html"><i class="fa fa-angle-right mr-2"></i>PRODUCTOS</a>
+                                <a class="text-white-50" href="contact.html"><i class="fa fa-angle-right mr-2"></i>CONTACTO</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-5">
+                            <h5 class="text-white text-uppercase mb-4">Productos</h5>
+                            <div class="d-flex flex-column justify-content-start">
+                                <a class="text-white-50 mb-2" href="Cara.html"><i class="fa fa-angle-right mr-2"></i>Productos para el rostro</a>
+                                <a class="text-white-50 mb-2" href="Labio.html"><i class="fa fa-angle-right mr-2"></i>Productos de Labios</a>
+                                <a class="text-white-50 mb-2" href="Herramientas.html"><i class="fa fa-angle-right mr-2"></i>Productos o Herramientas</a>
+                                <a class="text-white-50 mb-2" href="Ojos.html"><i class="fa fa-angle-right mr-2"></i>Productos para los ojos </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+  window.addEventListener('scroll', function () {
+    const navbar = document.getElementById('mainNavbar');
+    const headerHeight = document.querySelector('.carousel-item').offsetHeight;
+
+    if (window.scrollY > headerHeight - 100) {
+      navbar.classList.add('navbar-scrolled');
+    } else {
+      navbar.classList.remove('navbar-scrolled');
+    }
+  });
+</script>
+<script>
+    const wrapper = document.getElementById('carouselWrapper');
+    const container = document.getElementById('carouselContainer');
+
+    function scrollCarousel(direction) {
+      const cardWidth = container.querySelector('.product-card').offsetWidth + 20;
+      wrapper.scrollBy({ left: direction * cardWidth, behavior: 'smooth' });
+    }
+
+    function centerHighlight() {
+      const cards = container.querySelectorAll('.product-card');
+      const wrapperRect = wrapper.getBoundingClientRect();
+      const wrapperCenter = wrapperRect.left + wrapperRect.width / 2;
+
+      cards.forEach(card => {
+        const cardRect = card.getBoundingClientRect();
+        const cardCenter = cardRect.left + cardRect.width / 2;
+        const distance = Math.abs(wrapperCenter - cardCenter);
+        card.classList.toggle('center', distance < card.offsetWidth / 2);
+      });
+    }
+
+    wrapper.addEventListener('scroll', () => {
+      window.requestAnimationFrame(centerHighlight);
+    });
+
+    window.addEventListener('load', () => {
+      centerHighlight();
+      startAutoplay();
+    });
+
+    // Autoplay function
+    function startAutoplay() {
+      setInterval(() => {
+        scrollCarousel(1);
+      }, 4000); // Cambia cada 4 segundos
+    }
+  </script>
+  <!-- Dependencias (Bootstrap 4 compatible) -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Script que controla el cambio transparente->blanco, el menú móvil y el cierre automático -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const navbar = document.getElementById('mainNavbar');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  // Función que aplica/remueve la clase cuando haces scroll
+  function handleScroll() {
+    if (!navbar) return;
+    if (window.scrollY > 50) {
+      navbar.classList.add('navbar-scrolled');
+    } else {
+      navbar.classList.remove('navbar-scrolled');
+    }
+  }
+
+  // Ejecutar al cargar y al scrollear
+  handleScroll();
+  window.addEventListener('scroll', handleScroll, { passive: true });
+
+  // Cerrar menú móvil al clicar enlaces (por seguridad, aunque tus enlaces ya usan onclick)
+  if (mobileMenu) {
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.remove('open'));
+    });
+
+    // Cerrar el menú si el usuario toca fuera del panel (sin overlay)
+    document.addEventListener('click', function(e) {
+      if (!mobileMenu.classList.contains('open')) return;
+      // si el click NO está dentro del menu ni en el botón toggler, cerramos
+      const isInsideMenu = mobileMenu.contains(e.target);
+      const isToggler = e.target.closest('.navbar-toggler') !== null;
+      if (!isInsideMenu && !isToggler) {
+        mobileMenu.classList.remove('open');
+      }
+    });
+
+    // Permitir cerrar con la tecla ESC
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && mobileMenu.classList.contains('open')) {
+        mobileMenu.classList.remove('open');
+      }
+    });
+  }
+});
+</script>
+
+
+</body>
+
+</html>

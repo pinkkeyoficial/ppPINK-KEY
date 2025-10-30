@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="utf-8">
+    <title>PINK KEY</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+
+    <!-- Navbar Start -->
+<div class="container-fluid p-0">
+  <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5 transparent-navbar">
+
+      <a href="index.html" class="navbar-brand ml-lg-3">
+         <img src="img/pink_key-removebg-preview.png" alt="SPA Center" style="height: 100px;">
+      </a>
+
+      <!-- BOTÓN HAMBURGUESA NORMAL -->
+      <button class="navbar-toggler" type="button" onclick="document.getElementById('mobileMenu').classList.add('open')">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- MENÚ DESKTOP — NO SE TOCA -->
+      <div class="collapse navbar-collapse justify-content-between px-lg-3 d-none d-lg-flex">
+         <div class="navbar-nav m-auto py-0">
+            <a href="index.html" class="nav-item nav-link active">INICIO</a>
+            <a href="about.html" class="nav-item nav-link">NOSOTROS</a>
+            <a href="productos.html" class="nav-item nav-link">PRODUCTOS</a>
+         </div>
+         <a href="contact.html" class="btn btn-primary">CONTACTO</a>
+      </div>
+   </nav>
+</div>
+<!-- Navbar End -->
+
+<!-- MENÚ MÓVIL DESLIZABLE DESDE LA DERECHA -->
+<div id="mobileMenu" class="mobile-menu">
+   <div class="mobile-menu-content">
+      <button class="close-btn" onclick="document.getElementById('mobileMenu').classList.remove('open')">&times;</button>
+      <a href="index.html" class="nav-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">INICIO</a>
+      <a href="about.html" class="nav-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">NOSOTROS</a>
+      <a href="productos.html" class="nav-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">PRODUCTOS</a>
+      <a href="contact.html" class="btn btn-primary mt-3" onclick="document.getElementById('mobileMenu').classList.remove('open')">CONTACTO</a>
+   </div>
+</div>
+
+<style>
+/* MENÚ LATERAL SOLO EN CELULAR */
+.mobile-menu {
+   position: fixed;
+   top: 0;
+   right: -260px; /* fuera de pantalla */
+   width: 260px;
+   height: 100vh;
+   background: #fff; /* fondo blanco elegante */
+   box-shadow: -2px 0 10px rgba(0,0,0,0.15);
+   transition: right 0.3s ease-in-out;
+   z-index: 9999;
+   padding: 20px;
+}
+.mobile-menu.open { right: 0; } /* Deslizar desde derecha */
+
+.mobile-menu-content .nav-link {
+   display: block;
+   font-weight: 600;
+   margin: 12px 0;
+   text-transform: uppercase; /* tal como pediste */
+   color: #000;
+}
+
+.close-btn {
+   background: none;
+   border: none;
+   font-size: 32px;
+   position: absolute;
+   top: 10px;
+   right: 15px;
+   cursor: pointer;
+}
+
+@media(min-width: 992px){
+   .mobile-menu { display: none; }
+}
+</style>
+
+
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
+        <div class="container text-center py-5">
+            <h3 class="text-white display-3 mb-4">CONTACTO</h3>
+            <div class="d-inline-flex align-items-center text-white">
+                
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+ <!-- Contact Start -->
+     <section class="contacto-section">
+  <div class="contacto-container">
+    <!-- Contact Start -->
+ <!-- COLUMNA IZQUIERDA -->
+    <div class="contacto-info">
+      <h2>Contáctanos</h2>
+      <p>Estamos aquí para ayudarte a encontrar el maquillaje perfecto. Escríbenos por cualquiera de nuestros medios:</p>
+
+      <a href="https://api.whatsapp.com/send?phone=573123820211&text=Hola%20Pink%20Key,%20vi%20su%20página%20web%20y%20quiero%20más%20información%20sobre%20maquillaje." target="_blank" class="btn-whatsapp">
+   WhatsApp
+</a>
+
+
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pinkkey63@gmail.com&su=Consulta%20sobre%20Pink%20Key&body=¡Hola!%20Quisiera%20más%20información%20sobre%20los%20productos%20de%20Pink%20Key.%20💄"
+   target="_blank"
+   class="btn btn-primary"
+   style="background-color:#e75480;border:none;">
+   <i class="fas fa-envelope"></i> Enviar correo
+</a>
+
+
+
+
+
+      <a href="tel:3123820211" class="btn-telefono">
+         Llamar
+      </a>
+    </div>
+
+    <!-- COLUMNA DERECHA -->
+    <div class="contacto-mapa">
+      <iframe src="https://www.google.com/maps?q=Carrera%2011%20%2311-4,%20Sogamoso,%20Boyacá&output=embed"
+        loading="lazy" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+  </div>
+</section>
+    <!-- Contact End -->
+     
+
+ <!-- BOTÓN FLOTANTE WHATSAPP -->
+<a href="https://wa.me/573105519202?text=¡Hola!%20Quisiera%20más%20información%20sobre%20los%20productos%20de%20Pink%20Key%20💄" 
+   class="whatsapp-float" target="_blank" title="Escríbenos por WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+  
+    <!-- Footer Start -->
+   <div class="footer container-fluid position-relative bg-dark py-5" style="margin-top: 90px;">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6 pr-lg-5 mb-5">
+                    <a href="index.html" class="navbar-brand">
+                    <h1 class="mb-3 text-white"><span class="text-primary">PINK </span> KEY</h1>
+                    </a>
+                    <p>En Pink Key transformamos el maquillaje en un arte. Creamos productos pensados para resaltar tu belleza natural y acompañarte en cada momento especial.</p>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>Carrera 11 #11-4, Sogamoso, Boyacá</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>310 5519202</p>
+                    <p><i class="fa fa-envelope mr-2"></i>pinkkey63@gmail.com</p>
+                    <div class="d-flex justify-content-start mt-4">
+                       <a class="btn btn-lg btn-primary btn-lg-square" href="https://www.instagram.com/pinkkeysogamoso?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 pl-lg-5">
+                    <div class="row">
+                        <div class="col-sm-6 mb-5">
+                            <div class="d-flex flex-column justify-content-start">
+                                <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>INICIO</a>
+                                <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>NOSOTROS</a>
+                                <a class="text-white-50 mb-2" href="carrito.html"><i class="fa fa-angle-right mr-2"></i>PRODUCTOS</a>
+                                <a class="text-white-50" href="contact.html"><i class="fa fa-angle-right mr-2"></i>CONTACTO</a>
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <!-- ...existing code... -->
+<script>
+  window.addEventListener('scroll', function() {
+    const navbar = document.getElementById('mainNavbar');
+    // Cambia 100 por la altura de tu imagen/fondo principal si es necesario
+    if (window.scrollY > 100) {
+      navbar.classList.add('navbar-scrolled');
+    } else {
+      navbar.classList.remove('navbar-scrolled');
+    }
+  });
+</script>
+<!-- ...existing code... -->
+</body>
+
+</html>
